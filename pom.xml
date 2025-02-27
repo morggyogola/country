@@ -83,6 +83,9 @@
 					<sources>
 						<source>${project.basedir}/src/main/resources/country.xsd</source>
 					</sources>
+					<packageName>com.example.country</packageName>
+					<outputDirectory>${project.build.directory}/generated-sources/jaxb</outputDirectory>
+					<clearOutputDir>false</clearOutputDir>
 				</configuration>
 			</plugin>
 		</plugins>
